@@ -1,0 +1,21 @@
+Input:
+
+    A Regular expression R over the alphabet {0, 1}.
+    R can contain the following operations: '*', '.', 'U'.
+            '.' is not compulsory to imply concatenation. For ex: (1.0) can be given as (10)
+    The input should be (R). Keep the expression in parentheses. Example: ((1)*01(0)*)
+
+    A string w ∈ {0, 1}
+
+Output:
+
+    “True” if w ∈ L(R); “False” otherwise.
+
+How to run:
+
+    1. Create an input file "input.txt"
+    2. Enter the regular expression in the first line.
+    3. In the next line, enter the string you want to check. Example: 111010000
+    4. Run the java file with "input.txt" as a parameter. On your terminal, run the following commands.
+        i. Command 1: javac RegularExpressionChecker.java
+        ii. Command 2: java RegularExpressionChecker input.txt
